@@ -1,7 +1,8 @@
 <form (ngSubmit)="onSubmit(form)" #form="ngForm">
   <div class="form-group">
     <label for="name">Character Name</label>
-    <input type="text" id="name" name="name" class="form-control" ngModel required>
+    <input type="text" id="name" name="name" class="form-control" ngModel required #nameCtrl="ngModel">
+    <span class="help-block" *ngIf="nameCtrl.invalid && nameCtrl.touched">Please enter a name!</span>
   </div>
   <div class="form-group">
     <label for="side">Choose Side</label>
@@ -11,7 +12,7 @@
       </option>
     </select>
   </div>
-  <button class="btn btn-primary" type="submit">
+  <button class="btn btn-primary" type="submit" [disabled]="form.invalid">
     Add Character
   </button>
 </form>
