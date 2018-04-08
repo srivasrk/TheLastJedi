@@ -1,6 +1,6 @@
 # AngularEssentials
 
-Project is hosted on github pages [The Last Jedi](https://srivasrk.github.io/TheLastJedi/TheLastJedi/characters/all)
+Project is hosted on github pages [The Last Jedi](https://srivasrk.github.io/TheLastJedi/)
 
 ## Development server
 
