@@ -1,6 +1,6 @@
 # AngularEssentials
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+Project is hosted on AWS S3 [The Last Jedi](http://swjedi.s3-website.us-east-2.amazonaws.com/characters)
 
 ## Development server
 
