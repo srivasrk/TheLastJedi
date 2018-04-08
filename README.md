@@ -1,6 +1,6 @@
 # AngularEssentials
 
-Project is hosted on AWS S3 [The Last Jedi](http://swjedi.s3-website.us-east-2.amazonaws.com/characters)
+Project is hosted on github pages [The Last Jedi](https://srivasrk.github.io/TheLastJedi/)
 
 ## Development server
 
